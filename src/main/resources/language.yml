@@ -1,0 +1,7 @@
+commands:
+  show:
+    description: "show dialog"
+    noPlayer: "you need player"
+
+warn:
+  permission: "you need permission {permission}"

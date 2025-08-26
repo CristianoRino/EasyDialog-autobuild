@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "dialog help 插件帮助",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Please refer to the Minecraft Wiki for help with the dialog data pack.请查看minecraft wiki 获得dialog的编写指南",
+      "width": 300
+    }
+  ],
+  "actions": [
+    {
+      "label": {"text": "wiki 查看wiki"},
+      "tooltip": {"text": "learn how to use dialog"},
+      "action": {
+        "type": "open_url",
+        "url": "https://zh.minecraft.wiki/w/%E6%96%87%E6%9C%AC%E7%BB%84%E4%BB%B6#%E7%82%B9%E5%87%BB%E4%BA%8B%E4%BB%B6"
+      }
+    },
+    {
+      "label": {"text": "web page 网页制作"},
+      "tooltip": {"text": "make your dialog"},
+      "action": {
+        "type": "open_url",
+        "url": "https://misode.github.io/dialog/"
+      }
+    }
+  ]
+}
