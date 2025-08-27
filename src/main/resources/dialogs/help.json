@@ -10,16 +10,24 @@
   ],
   "actions": [
     {
-      "label": {"text": "wiki 查看wiki"},
-      "tooltip": {"text": "learn how to use dialog"},
+      "label": {
+        "text": "wiki 查看wiki"
+      },
+      "tooltip": {
+        "text": "learn how to use dialog"
+      },
       "action": {
         "type": "open_url",
         "url": "https://zh.minecraft.wiki/w/%E6%96%87%E6%9C%AC%E7%BB%84%E4%BB%B6#%E7%82%B9%E5%87%BB%E4%BA%8B%E4%BB%B6"
       }
     },
     {
-      "label": {"text": "web page 网页制作"},
-      "tooltip": {"text": "make your dialog"},
+      "label": {
+        "text": "web page 网页制作"
+      },
+      "tooltip": {
+        "text": "make your dialog"
+      },
       "action": {
         "type": "open_url",
         "url": "https://misode.github.io/dialog/"
